@@ -1,0 +1,18 @@
+{
+    "address": "192.168.1.14",
+    "port": 1234,
+
+    "time": 30,
+    "repeat": null,
+    "timeout": null,
+
+    "connections": 2500,
+    "multicore": true,
+
+    "showConnections": 1000,
+    "reconnect": 1000,
+    "logFile": "client.log",
+
+    "contentUrl": "1B",
+    "content": null
+}

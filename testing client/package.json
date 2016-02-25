@@ -1,0 +1,16 @@
+{
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node echoserver.js",
+    "client": "node echoclient.js",
+    "graph": "./merge.sh",
+    "serverstats": "node generateServerStats.js",
+    "cleanclient": "rm client.log client.csv client.png",
+    "cleanserver": "rm server.log server.csv"
+  },
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "gnuplot": "^0.3.1"
+  }
+}
